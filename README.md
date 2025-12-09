@@ -1,10 +1,17 @@
 ## Installation
-Run
+
+1. Clone the Repository
+```git clone https://github.com/sisodiyapawan/VoiceOwl-Task-Nodejs.git```
+
+2. Run
 ```npm install```
 
-Set mongodb url in .env
+3. Set mongodb url in .env
 
-MONGO_URI=mongodb://localhost:27017/voiceowl
+    MONGO_URI=mongodb://localhost:27017/voiceowl
+
+4. Start the server
+   ```npm start```
 
 ## Here are the answers of the questions which are asked to explain in the requirement pdf
 
@@ -95,7 +102,6 @@ Response:
 
 Request Parameter:
 1. audioUrl
-2. 
    Example Value:- https://dummy-audio/sample.mp3
 
 Response:
